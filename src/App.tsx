@@ -10,6 +10,7 @@ import Dashboard from "./pages/Dashboard";
 import Transactions from "./pages/Transactions";
 import FinancialProfilePage from "./pages/FinancialProfilePage";
 import RiskQuiz from "./pages/RiskQuiz";
+import InvestmentEducation from "./pages/InvestmentEducation";
 import ActionPlan from "./pages/ActionPlan";
 import Chat from "./pages/Chat";
 import NotFound from "./pages/NotFound";
@@ -73,6 +74,14 @@ const App = () => (
               element={
                 <ProtectedRoute>
                   <FinancialProfilePage />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/learn"
+              element={
+                <ProtectedRoute>
+                  <InvestmentEducation />
                 </ProtectedRoute>
               }
             />
