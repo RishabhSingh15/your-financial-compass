@@ -11,6 +11,7 @@ import {
   LogOut,
   Menu,
   X,
+  ClipboardList,
   ChevronRight
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -22,6 +23,7 @@ interface DashboardLayoutProps {
 const navItems = [
   { path: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
   { path: '/transactions', label: 'Transactions', icon: Receipt },
+  { path: '/risk-quiz', label: 'Risk Assessment', icon: ClipboardList },
   { path: '/profile', label: 'Financial Profile', icon: User },
   { path: '/action-plan', label: 'Action Plan', icon: Target },
   { path: '/chat', label: 'AI Assistant', icon: MessageSquare },
