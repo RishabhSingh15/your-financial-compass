@@ -101,10 +101,6 @@ export default function Auth() {
             </div>
           </div>
         </div>
-        
-        <p className="text-primary-foreground/60 text-sm">
-          © 2024 FinanceWise. All rights reserved.
-        </p>
       </div>
       
       {/* Right side - Auth forms */}

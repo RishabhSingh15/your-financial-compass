@@ -12,6 +12,7 @@ import {
   Menu,
   X,
   ClipboardList,
+  BookOpen,
   ChevronRight
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -25,6 +26,7 @@ const navItems = [
   { path: '/transactions', label: 'Transactions', icon: Receipt },
   { path: '/risk-quiz', label: 'Risk Assessment', icon: ClipboardList },
   { path: '/profile', label: 'Financial Profile', icon: User },
+  { path: '/learn', label: 'Learn Investing', icon: BookOpen },
   { path: '/action-plan', label: 'Action Plan', icon: Target },
   { path: '/chat', label: 'AI Assistant', icon: MessageSquare },
 ];
